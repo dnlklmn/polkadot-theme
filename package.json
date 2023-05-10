@@ -1,0 +1,17 @@
+{
+  "name": "polkadot-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sd": "node sd.config.cjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "^0.8.5",
+    "sd-tw-transformer": "^1.2.0",
+    "style-dictionary": "^3.8.0"
+  }
+}
