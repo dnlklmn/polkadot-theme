@@ -8,9 +8,9 @@ const sdConfig = makeSdTailwindConfig({
   type: "all",
   isVariables: true,
   source: [
-    `src/theme/figma/dark.json`,
-    `src/theme/figma/light.json`,
-    `src/theme/figma/global.json`,
+    `src/tokens/dark.json`,
+    `src/tokens/light.json`,
+    `src/tokens/global.json`,
   ],
   transforms: ["name/cti/kebab", "attribute/cti"],
   buildPath: `./`,
@@ -41,8 +41,8 @@ StyleDictionary.registerFormat({
 // generate css for each token set
 ["light", "dark", "global"].map((theme) => {
   const themeVariables = StyleDictionary.extend({
-    source: [`src/theme/figma/${theme}.json`],
-    include: [`src/theme/figma/global.json`],
+    source: [`src/tokens/${theme}.json`],
+    include: [`src/tokens/global.json`],
     platforms: {
       web: {
         transformGroup: "tokens-studio",
@@ -60,7 +60,7 @@ StyleDictionary.registerFormat({
           "ts/color/modifiers",
           "name/cti/kebab",
         ],
-        buildPath: "src/theme/",
+        buildPath: "./",
         files: [
           {
             destination: `${theme}.css`,
@@ -80,8 +80,8 @@ StyleDictionary.registerFormat({
 });
 
 const globalVariables = StyleDictionary.extend({
-  source: [`src/theme/figma/global.json`],
-  include: [`src/theme/figma/global.json`],
+  source: [`src/tokens/global.json`],
+  include: [`src/tokens/global.json`],
   platforms: {
     web: {
       transformGroup: "tokens-studio",
@@ -99,7 +99,7 @@ const globalVariables = StyleDictionary.extend({
         "ts/color/modifiers",
         "name/cti/kebab",
       ],
-      buildPath: "src/theme/",
+      buildPath: "./",
       files: [
         {
           destination: `global.css`,
