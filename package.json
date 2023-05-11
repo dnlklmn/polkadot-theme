@@ -7,6 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "sd": "node sd.config.cjs"
   },
+  "files": [
+    "light.css",
+    "dark.css",
+    "global.css",
+    "tailwind.config.cjs"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
