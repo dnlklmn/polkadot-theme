@@ -1,6 +1,6 @@
 :root[data-theme="dark"] {
   --colors-background-default: #1c0533;
-  --colors-background-system: #101015;
+  --colors-background-system: #111111;
   --colors-background-float: #321d47;
   --colors-background-dip: #140523;
   --colors-fill-primary: #e6007a;
@@ -22,13 +22,13 @@
   --colors-fill-selected: #e6eaf6;
   --colors-fill-white: #ffffff;
   --colors-fill-separator: #ffffff2b;
-  --colors-border-contrast: #201f37;
+  --colors-border-contrast: #2b2b2b;
   --colors-border-dimmed: #00000070;
   --colors-border-primary: #e6007a;
   --colors-border-danger: #e31902;
   --colors-border-hint: #ffffff2b;
   --colors-border-disabled: #00000029;
-  --colors-border-focus: #201f37;
+  --colors-border-focus: #2b2b2b;
   --colors-foreground-contrast: #ffffff;
   --colors-foreground-dimmed: #ffffff7a;
   --colors-foreground-match-background: #1c0533;
