@@ -1,6 +1,6 @@
 :root {
   --colors-background-default: #f3f5fb;
-  --colors-background-system: #f9f9fb;
+  --colors-background-system: #fafafa;
   --colors-background-dip: #e6eaf6;
   --colors-background-float: #ffffff;
   --colors-fill-primary: #e6007a;
@@ -13,7 +13,7 @@
   --colors-fill-ghost-hover: #f3f5fb;
   --colors-fill-ghost-down: #e6eaf6;
   --colors-fill-match-background: #f3f5fb;
-  --colors-fill-disabled: #f9f9fb;
+  --colors-fill-disabled: #fafafa;
   --colors-fill-danger: #fd4935;
   --colors-fill-danger-hover: color(display-p3 0.82 0.31 0.23);
   --colors-fill-danger-pressed: color(display-p3 0.78 0.29 0.22);
