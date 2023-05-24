@@ -1,17 +1,19 @@
 {
   "name": "polkadot-theme",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sd": "node sd.config.cjs"
+    "sd": "node sd.config.cjs",
+    "copy": "cp -r ./node_modules/polkadot-theme/tailwind.config.cjs ./"
   },
   "files": [
     "light.css",
     "dark.css",
     "global.css",
-    "tailwind.config.cjs"
+    "tailwind.config.cjs",
+    "sd.config.cjs"
   ],
   "author": "",
   "license": "ISC",
