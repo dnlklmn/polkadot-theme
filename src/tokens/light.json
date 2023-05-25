@@ -178,7 +178,7 @@
     },
     "border": {
       "contrast": {
-        "value": "{colors.p-gray.800}",
+        "value": "{colors.p-gray.900}",
         "type": "color",
         "description": "\n\n"
       },
@@ -191,11 +191,11 @@
         "type": "color"
       },
       "danger": {
-        "value": "{colors.p-red.500}",
+        "value": "{colors.p-red.400}",
         "type": "color"
       },
       "hint": {
-        "value": "{colors.p-gray.400}",
+        "value": "{colors.p-gray.200}",
         "type": "color"
       },
       "disabled": {
@@ -233,7 +233,7 @@
         "type": "color"
       },
       "danger": {
-        "value": "{colors.p-red.500}",
+        "value": "{colors.p-red.400}",
         "type": "color"
       },
       "emphasized": {

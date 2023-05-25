@@ -37,7 +37,7 @@
   "colors": {
     "background": {
       "default": {
-        "value": "{colors.p-purple.900}",
+        "value": "{colors.p-gray.900}",
         "type": "color"
       },
       "system": {
@@ -45,7 +45,7 @@
         "type": "color"
       },
       "float": {
-        "value": "{colors.p-purple.700}",
+        "value": "{colors.p-gray.700}",
         "type": "color"
       },
       "dip": {
@@ -196,7 +196,7 @@
     },
     "border": {
       "contrast": {
-        "value": "{colors.p-gray.800}",
+        "value": "{colors.p-gray.100}",
         "type": "color",
         "description": "\n\n"
       },
@@ -209,11 +209,11 @@
         "type": "color"
       },
       "danger": {
-        "value": "{colors.p-red.500}",
+        "value": "{colors.p-red.400}",
         "type": "color"
       },
       "hint": {
-        "value": "{colors.p-white-transparent.200}",
+        "value": "{colors.p-gray.600}",
         "type": "color"
       },
       "disabled": {
@@ -252,7 +252,7 @@
         "description": "Stays white both in dark and light themes."
       },
       "disabled": {
-        "value": "{colors.p-white-transparent.400}",
+        "value": "{colors.p-gray.300}",
         "type": "color"
       },
       "danger": {
