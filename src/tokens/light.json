@@ -85,11 +85,11 @@
         }
       },
       "secondary": {
-        "value": "{colors.p-purple.700}",
+        "value": "{colors.p-pink.100}",
         "type": "color"
       },
       "secondary-hover": {
-        "value": "{colors.p-purple.700}",
+        "value": "{colors.fill.secondary}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -102,7 +102,7 @@
         }
       },
       "secondary-down": {
-        "value": "{colors.p-purple.900}",
+        "value": "{colors.fill.secondary}",
         "type": "color"
       },
       "ghost": {
