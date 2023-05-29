@@ -45,7 +45,7 @@
         "type": "color"
       },
       "dip": {
-        "value": "{colors.p-purple.200}",
+        "value": "{colors.p-gray.200}",
         "type": "color"
       },
       "float": {
@@ -65,7 +65,7 @@
           "studio.tokens": {
             "modify": {
               "type": "darken",
-              "value": "0.1",
+              "value": "0.025",
               "space": "p3"
             }
           }
@@ -78,7 +78,7 @@
           "studio.tokens": {
             "modify": {
               "type": "darken",
-              "value": "0.15",
+              "value": "0.035",
               "space": "p3"
             }
           }
@@ -94,28 +94,55 @@
         "$extensions": {
           "studio.tokens": {
             "modify": {
-              "type": "lighten",
-              "value": "0.05",
-              "space": "p3"
+              "type": "darken",
+              "value": "0.025",
+              "space": "lch"
             }
           }
         }
       },
       "secondary-down": {
         "value": "{colors.fill.secondary}",
-        "type": "color"
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.035",
+              "space": "p3"
+            }
+          }
+        }
       },
       "ghost": {
         "value": "{colors.white}",
         "type": "color"
       },
       "ghost-hover": {
-        "value": "{colors.p-purple.100}",
-        "type": "color"
+        "value": "{colors.fill.ghost}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.015",
+              "space": "p3"
+            }
+          }
+        }
       },
       "ghost-down": {
-        "value": "{colors.p-purple.200}",
-        "type": "color"
+        "value": "{colors.fill.ghost}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.035",
+              "space": "p3"
+            }
+          }
+        }
       },
       "match-background": {
         "value": "{colors.background.default}",
@@ -126,17 +153,17 @@
         "type": "color"
       },
       "danger": {
-        "value": "{colors.p-red.400}",
+        "value": "{colors.p-red.500}",
         "type": "color"
       },
       "danger-hover": {
-        "value": "{colors.p-red.400}",
+        "value": "{colors.fill.danger}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
               "type": "darken",
-              "value": "0.1",
+              "value": "0.025",
               "space": "p3"
             }
           }
@@ -183,7 +210,7 @@
         "description": "\n\n"
       },
       "dimmed": {
-        "value": "{colors.p-black-transparent.500}",
+        "value": "{colors.p-gray.700}",
         "type": "color"
       },
       "primary": {

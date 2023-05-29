@@ -148,13 +148,13 @@
         "type": "color"
       },
       "danger-hover": {
-        "value": "{colors.p-red.400}",
+        "value": "{colors.fill.danger}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
               "type": "darken",
-              "value": "0.1",
+              "value": "0.025",
               "space": "p3"
             }
           }
@@ -201,7 +201,7 @@
         "description": "\n\n"
       },
       "dimmed": {
-        "value": "{colors.p-black-transparent.500}",
+        "value": "{colors.p-gray.400}",
         "type": "color"
       },
       "primary": {
