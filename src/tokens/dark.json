@@ -45,7 +45,7 @@
         "type": "color"
       },
       "float": {
-        "value": "{colors.p-gray.700}",
+        "value": "{colors.p-gray.800}",
         "type": "color"
       },
       "dip": {
@@ -140,7 +140,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{colors.p-white-transparent.100}",
+        "value": "{colors.p-gray.900}",
         "type": "color"
       },
       "danger": {
@@ -213,7 +213,7 @@
         "type": "color"
       },
       "hint": {
-        "value": "{colors.p-gray.600}",
+        "value": "{colors.p-gray.700}",
         "type": "color"
       },
       "disabled": {
