@@ -49,7 +49,7 @@
         "type": "color"
       },
       "dip": {
-        "value": "{colors.p-purple.950}",
+        "value": "{colors.p-gray.700}",
         "type": "color"
       }
     },
@@ -182,7 +182,7 @@
         "type": "color"
       },
       "selected": {
-        "value": "{colors.p-gray.700}",
+        "value": "{colors.p-gray.800}",
         "type": "color"
       },
       "white": {
