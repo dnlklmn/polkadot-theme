@@ -191,7 +191,7 @@
         "type": "color"
       },
       "selected": {
-        "value": "{colors.p-purple.200}",
+        "value": "{colors.p-gray.100}",
         "type": "color"
       },
       "white": {
