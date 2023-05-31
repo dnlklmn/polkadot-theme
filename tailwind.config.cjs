@@ -162,53 +162,24 @@ module.exports = {
         inter: "var(--font-family-inter)",
         mono: "var(--font-family-mono)"
       },
-      lineHeight: {
-    "h2": "var(--line-height-h2)",
-    "h1": "var(--line-height-h1)",
-    "h3": "var(--line-height-h3)",
-    "h4": "var(--line-height-h4)",
-    "h5": "var(--line-height-h5)",
-    "h6": "var(--line-height-h6)",
-        body: "var(--line-height-body)",
-    "body2": "var(--line-height-body2)",
-        subtitle: "var(--line-height-subtitle)",
-    "subtitle2": "var(--line-height-subtitle2)",
-        caption: "var(--line-height-caption)"
-      },
       fontWeight: {
-        unboundedBold: "var(--font-weight-unbounded-bold)",
-        unboundedMedium: "var(--font-weight-unbounded-medium)",
-        interRegular: "var(--font-weight-inter-regular)",
-        interMedium: "var(--font-weight-inter-medium)",
-        interBold: "var(--font-weight-inter-bold)",
-        monoRegular: "var(--font-weight-mono-regular)",
-        monoMedium: "var(--font-weight-mono-medium)"
+        bold: "var(--font-weight-bold)",
+        regular: "var(--font-weight-regular)",
+        semibold: "var(--font-weight-semibold)"
+      },
+      lineHeight: {
+        xl: "var(--line-height-xl)",
+        lg: "var(--line-height-lg)",
+        base: "var(--line-height-base)",
+        sm: "var(--line-height-sm)",
+        xs: "var(--line-height-xs)"
       },
       fontSize: {
-    "body2": "var(--font-size-body2)",
-        body: "var(--font-size-body)",
-    "h6": "var(--font-size-h6)",
-    "h5": "var(--font-size-h5)",
-    "h4": "var(--font-size-h4)",
-    "h3": "var(--font-size-h3)",
-    "h2": "var(--font-size-h2)",
-    "h1": "var(--font-size-h1)",
-        subtitle: "var(--font-size-subtitle)",
-    "subtitle2": "var(--font-size-subtitle2)",
-        caption: "var(--font-size-caption)"
-      },
-      letterSpacing: {
-        0: "var(--letter-spacing-0)",
-        1: "var(--letter-spacing-1)"
-      },
-      paragraphSpacing: {
-        0: "var(--paragraph-spacing-0)"
-      },
-      textCase: {
-        none: "var(--text-case-none)"
-      },
-      textDecoration: {
-        none: "var(--text-decoration-none)"
+        xl: "var(--font-size-xl)",
+        lg: "var(--font-size-lg)",
+        base: "var(--font-size-base)",
+        sm: "var(--font-size-sm)",
+        xs: "var(--font-size-xs)"
       }
     },
   },
