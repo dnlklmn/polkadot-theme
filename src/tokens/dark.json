@@ -140,7 +140,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{colors.p-gray.900}",
+        "value": "{colors.p-gray.800}",
         "type": "color"
       },
       "danger": {
@@ -256,7 +256,7 @@
         "description": "Stays white both in dark and light themes."
       },
       "disabled": {
-        "value": "{colors.p-gray.500}",
+        "value": "{colors.p-gray.400}",
         "type": "color"
       },
       "danger": {
