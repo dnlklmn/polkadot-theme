@@ -85,7 +85,7 @@
         }
       },
       "secondary": {
-        "value": "{colors.p-gray.800}",
+        "value": "{colors.p-gray.900}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -192,6 +192,10 @@
       "separator": {
         "value": "{colors.p-white-transparent.200}",
         "type": "color"
+      },
+      "elevate": {
+        "value": "{colors.black}",
+        "type": "color"
       }
     },
     "border": {
@@ -242,7 +246,7 @@
         "description": "Matches background color (in both dark and light modes)."
       },
       "primary": {
-        "value": "{colors.p-pink.500}",
+        "value": "{colors.p-pink.400}",
         "type": "color",
         "description": "Use for most important action."
       },

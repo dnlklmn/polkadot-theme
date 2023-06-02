@@ -192,6 +192,10 @@
       "separator": {
         "value": "{colors.p-black-transparent.200}",
         "type": "color"
+      },
+      "elevate": {
+        "value": "{colors.white}",
+        "type": "color"
       }
     },
     "border": {
