@@ -140,7 +140,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{colors.p-gray.100}",
+        "value": "{colors.p-gray.50}",
         "type": "color"
       },
       "danger": {
