@@ -140,7 +140,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{colors.p-gray.700}",
+        "value": "{colors.p-gray.900}",
         "type": "color"
       },
       "danger": {
@@ -236,7 +236,7 @@
         "description": "Contrast to background color (in both dark and light modes)."
       },
       "dimmed": {
-        "value": "{colors.p-white-transparent.500}",
+        "value": "{colors.p-gray.400}",
         "type": "color",
         "description": "Use for less important text and icons - eg. icons you'll find if you need them but don't need to"
       },
