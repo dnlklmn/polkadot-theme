@@ -106,7 +106,7 @@
         "type": "color"
       },
       "ghost": {
-        "value": "{colors.white}",
+        "value": "{colors.p-gray.50}",
         "type": "color"
       },
       "ghost-hover": {
@@ -115,7 +115,7 @@
         "$extensions": {
           "studio.tokens": {
             "modify": {
-              "type": "darken",
+              "type": "lighten",
               "value": "0.015",
               "space": "p3"
             }
