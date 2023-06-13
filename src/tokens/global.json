@@ -350,19 +350,19 @@
   },
   "lineHeight": {
     "xl": {
-      "value": "2.25rem",
+      "value": "2rem",
       "type": "lineHeights"
     },
     "lg": {
-      "value": "2.5 rem",
+      "value": "2 rem",
       "type": "lineHeights"
     },
     "base": {
-      "value": "1.1875 rem",
+      "value": "1.5 rem",
       "type": "lineHeights"
     },
     "sm": {
-      "value": "1.0625 rem",
+      "value": "1.25 rem",
       "type": "lineHeights"
     },
     "xs": {
