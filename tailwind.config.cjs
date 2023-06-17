@@ -36,7 +36,8 @@ module.exports = {
           overlay: "var(--colors-fill-overlay)",
           selected: "var(--colors-fill-selected)",
           white: "var(--colors-fill-white)",
-          separator: "var(--colors-fill-separator)"
+          separator: "var(--colors-fill-separator)",
+          elevate: "var(--colors-fill-elevate)"
         },
         border: {
           contrast: "var(--colors-border-contrast)",
@@ -156,6 +157,9 @@ module.exports = {
           925: "var(--colors-p-purple-925)",
           950: "var(--colors-p-purple-950)"
         }
+      },
+      boderRadius: {
+        lg: "var(--boder-radius-lg)"
       },
       fontFamily: {
         unbounded: "var(--font-family-unbounded)",
