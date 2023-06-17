@@ -2,7 +2,7 @@
   --colors-background-default: #1a1a1a;
   --colors-background-system: #111111;
   --colors-background-float: #2b2b2b;
-  --colors-background-dip: #140523;
+  --colors-background-dip: #414141;
   --colors-fill-primary: #e6007a;
   --colors-fill-primary-hover: color(display-p3 0.74 0.16 0.43);
   --colors-fill-primary-down: color(display-p3 0.7 0.15 0.4);
@@ -19,7 +19,7 @@
   --colors-fill-danger-pressed: color(display-p3 0.78 0.29 0.22);
   --colors-fill-elevate-1: #ffffffb0;
   --colors-fill-overlay: #ffffff94;
-  --colors-fill-selected: #e6eaf6;
+  --colors-fill-selected: #2b2b2b;
   --colors-fill-white: #ffffff;
   --colors-fill-separator: #ffffff2b;
   --colors-border-contrast: #ebebeb;
