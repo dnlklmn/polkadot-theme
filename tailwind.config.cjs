@@ -170,20 +170,6 @@ module.exports = {
         bold: "var(--font-weight-bold)",
         regular: "var(--font-weight-regular)",
         semibold: "var(--font-weight-semibold)"
-      },
-      lineHeight: {
-        xl: "var(--line-height-xl)",
-        lg: "var(--line-height-lg)",
-        base: "var(--line-height-base)",
-        sm: "var(--line-height-sm)",
-        xs: "var(--line-height-xs)"
-      },
-      fontSize: {
-        xl: "var(--font-size-xl)",
-        lg: "var(--font-size-lg)",
-        base: "var(--font-size-base)",
-        sm: "var(--font-size-sm)",
-        xs: "var(--font-size-xs)"
       }
     },
   },
