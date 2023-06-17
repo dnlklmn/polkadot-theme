@@ -85,7 +85,7 @@
         }
       },
       "secondary": {
-        "value": "{colors.p-gray.800}",
+        "value": "{colors.p-gray.900}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -140,7 +140,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{colors.p-gray.700}",
+        "value": "{colors.p-gray.800}",
         "type": "color"
       },
       "danger": {
@@ -192,6 +192,10 @@
       "separator": {
         "value": "{colors.p-white-transparent.200}",
         "type": "color"
+      },
+      "elevate": {
+        "value": "{colors.black}",
+        "type": "color"
       }
     },
     "border": {
@@ -232,7 +236,7 @@
         "description": "Contrast to background color (in both dark and light modes)."
       },
       "dimmed": {
-        "value": "{colors.p-white-transparent.500}",
+        "value": "{colors.p-gray.400}",
         "type": "color",
         "description": "Use for less important text and icons - eg. icons you'll find if you need them but don't need to"
       },
@@ -242,7 +246,7 @@
         "description": "Matches background color (in both dark and light modes)."
       },
       "primary": {
-        "value": "{colors.p-pink.500}",
+        "value": "{colors.p-pink.400}",
         "type": "color",
         "description": "Use for most important action."
       },
@@ -252,7 +256,7 @@
         "description": "Stays white both in dark and light themes."
       },
       "disabled": {
-        "value": "{colors.p-gray.500}",
+        "value": "{colors.p-gray.400}",
         "type": "color"
       },
       "danger": {

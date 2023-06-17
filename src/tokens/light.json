@@ -65,8 +65,8 @@
           "studio.tokens": {
             "modify": {
               "type": "darken",
-              "value": "0.025",
-              "space": "p3"
+              "value": "0.075",
+              "space": "hsl"
             }
           }
         }
@@ -78,14 +78,14 @@
           "studio.tokens": {
             "modify": {
               "type": "darken",
-              "value": "0.035",
-              "space": "p3"
+              "value": "0.125",
+              "space": "hsl"
             }
           }
         }
       },
       "secondary": {
-        "value": "{colors.p-pink.100}",
+        "value": "{colors.p-pink.50}",
         "type": "color"
       },
       "secondary-hover": {
@@ -94,28 +94,19 @@
         "$extensions": {
           "studio.tokens": {
             "modify": {
-              "type": "darken",
-              "value": "0.025",
-              "space": "lch"
+              "type": "lighten",
+              "value": "0.5",
+              "space": "p3"
             }
           }
         }
       },
       "secondary-down": {
         "value": "{colors.fill.secondary}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "0.035",
-              "space": "p3"
-            }
-          }
-        }
+        "type": "color"
       },
       "ghost": {
-        "value": "{colors.white}",
+        "value": "{colors.p-gray.50}",
         "type": "color"
       },
       "ghost-hover": {
@@ -124,7 +115,7 @@
         "$extensions": {
           "studio.tokens": {
             "modify": {
-              "type": "darken",
+              "type": "lighten",
               "value": "0.015",
               "space": "p3"
             }
@@ -170,13 +161,13 @@
         }
       },
       "danger-pressed": {
-        "value": "{colors.p-red.400}",
+        "value": "{colors.fill.danger}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
               "type": "darken",
-              "value": "0.15",
+              "value": "0.075",
               "space": "p3"
             }
           }
@@ -200,6 +191,10 @@
       },
       "separator": {
         "value": "{colors.p-black-transparent.200}",
+        "type": "color"
+      },
+      "elevate": {
+        "value": "{colors.white}",
         "type": "color"
       }
     },
@@ -248,7 +243,7 @@
         "type": "color"
       },
       "primary": {
-        "value": "{colors.p-pink.500}",
+        "value": "{colors.p-pink.600}",
         "type": "color"
       },
       "white": {
@@ -256,7 +251,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{colors.p-gray.400}",
+        "value": "{colors.p-gray.500}",
         "type": "color"
       },
       "danger": {
@@ -285,6 +280,12 @@
         "value": "#aaaaac",
         "type": "color"
       }
+    }
+  },
+  "boderRadius": {
+    "lg": {
+      "value": "16px",
+      "type": "borderRadius"
     }
   }
 }

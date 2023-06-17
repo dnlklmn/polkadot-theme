@@ -38,7 +38,7 @@
     },
     "p-pink": {
       "50": {
-        "value": "#fff5fb",
+        "value": "#FFF8FC",
         "type": "color"
       },
       "100": {
@@ -54,7 +54,7 @@
         "type": "color"
       },
       "400": {
-        "value": "#ec3998",
+        "value": "#FD1B93",
         "type": "color"
       },
       "500": {
@@ -104,11 +104,11 @@
         "type": "color"
       },
       "500": {
-        "value": "#818181",
+        "value": "#8D8D8D",
         "type": "color"
       },
       "600": {
-        "value": "#616161",
+        "value": "#767676",
         "type": "color"
       },
       "700": {
@@ -350,19 +350,19 @@
   },
   "lineHeight": {
     "xl": {
-      "value": "2.25rem",
+      "value": "2rem",
       "type": "lineHeights"
     },
     "lg": {
-      "value": "2.5 rem",
+      "value": "2 rem",
       "type": "lineHeights"
     },
     "base": {
-      "value": "1.1875 rem",
+      "value": "1.5 rem",
       "type": "lineHeights"
     },
     "sm": {
-      "value": "1.0625 rem",
+      "value": "1.25 rem",
       "type": "lineHeights"
     },
     "xs": {
