@@ -347,49 +347,5 @@
         "type": "color"
       }
     }
-  },
-  "lineHeight": {
-    "xl": {
-      "value": "2rem",
-      "type": "lineHeights"
-    },
-    "lg": {
-      "value": "2 rem",
-      "type": "lineHeights"
-    },
-    "base": {
-      "value": "1.5 rem",
-      "type": "lineHeights"
-    },
-    "sm": {
-      "value": "1.25 rem",
-      "type": "lineHeights"
-    },
-    "xs": {
-      "value": "1 rem",
-      "type": "lineHeights"
-    }
-  },
-  "fontSize": {
-    "xl": {
-      "value": "1.5 rem",
-      "type": "fontSizes"
-    },
-    "lg": {
-      "value": "1.25 rem",
-      "type": "fontSizes"
-    },
-    "base": {
-      "value": "1 rem",
-      "type": "fontSizes"
-    },
-    "sm": {
-      "value": "0.875 rem",
-      "type": "fontSizes"
-    },
-    "xs": {
-      "value": "0.75 rem",
-      "type": "fontSizes"
-    }
   }
 }
