@@ -11,9 +11,10 @@
     "copy-config": "cp -r ./node_modules/polkadot-theme/tailwind.config.cjs ./"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@tokens-studio/sd-transforms": "^0.8.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@tokens-studio/sd-transforms": "^0.8.5",
     "sd-tw-transformer": "^1.2.1",
     "style-dictionary": "^3.8.0"
   },
@@ -29,9 +30,12 @@
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "@typescript-eslint/parser": "^5.59.0",
     "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
     "eslint": "^8.38.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
     "typescript": "^5.0.2",
     "vite": "^4.3.9"
   }
