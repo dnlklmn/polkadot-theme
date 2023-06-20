@@ -23,6 +23,18 @@ import "polkadot-theme/light.css"
 import "polkadot-theme/dark.css"
 ```
 
+Implement in components
+
+```
+Button.tsx - variant="ghost"
+
+...
+<button className="bg-fill-ghost border-border-hint text-foreground-contrast">
+    Press me!
+</button>
+...
+```
+
 ## Token API
 
 ### Global Colors
