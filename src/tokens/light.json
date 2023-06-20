@@ -231,7 +231,7 @@
     },
     "foreground": {
       "contrast": {
-        "value": "{colors.p-pink.500}",
+        "value": "{colors.p-gray.800}",
         "type": "color"
       },
       "dimmed": {
