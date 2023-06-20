@@ -1,4 +1,4 @@
-![Alt text](image.png)
+![Alt text](Tokens in Figma)
 
 # Polkadot Design Tokens
 
