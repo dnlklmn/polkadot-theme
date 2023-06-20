@@ -1,12 +1,11 @@
 {
   "name": "polkadot-theme",
-  "version": "1.0.5",
+  "version": "1.1.2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sd": "node sd.config.cjs",
-    "copy": "cp -r ./node_modules/polkadot-theme/tailwind.config.cjs ./"
+    "generate-output": "node sd.config.cjs",
+    "copy-config": "cp -r ./node_modules/polkadot-theme/tailwind.config.cjs ./"
   },
   "files": [
     "light.css",
@@ -19,6 +18,8 @@
   "license": "ISC",
   "dependencies": {
     "@tokens-studio/sd-transforms": "^0.8.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "sd-tw-transformer": "^1.2.1",
     "style-dictionary": "^3.8.0"
   }

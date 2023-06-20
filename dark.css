@@ -2,7 +2,7 @@
   --colors-background-default: #1a1a1a;
   --colors-background-system: #111111;
   --colors-background-float: #2b2b2b;
-  --colors-background-dip: #414141;
+  --colors-background-dip: #111111;
   --colors-fill-primary: #e6007a;
   --colors-fill-primary-hover: color(display-p3 0.74 0.16 0.43);
   --colors-fill-primary-down: color(display-p3 0.7 0.15 0.4);
@@ -30,7 +30,7 @@
   --colors-border-hint: #414141;
   --colors-border-disabled: #767676;
   --colors-border-focus: #2b2b2b;
-  --colors-foreground-contrast: #ffffff;
+  --colors-foreground-contrast: #fafafa;
   --colors-foreground-dimmed: #a1a1a1;
   --colors-foreground-match-background: #1a1a1a;
   --colors-foreground-primary: #FD1B93;
