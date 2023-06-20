@@ -52,6 +52,13 @@ Foreground: for texts and icons
 
 ### Typography [WIP]
 
-```
+---
 
-```
+## Generating Output and Publishing Package
+
+0. push changes from Figma
+
+1. `npm run generate-output`
+2. bump version in `package.json`
+3. `npm i`
+4. `npm publish`
