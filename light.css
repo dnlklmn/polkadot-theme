@@ -6,9 +6,9 @@
   --colors-fill-primary: #e6007a;
   --colors-fill-primary-hover: hsl(328 100% 41.7%);
   --colors-fill-primary-down: hsl(328 100% 39.5%);
-  --colors-fill-secondary: #FFF8FC;
+  --colors-fill-secondary: #fff8fc;
   --colors-fill-secondary-hover: color(display-p3 1 0.99 0.99);
-  --colors-fill-secondary-down: #FFF8FC;
+  --colors-fill-secondary-down: #fff8fc;
   --colors-fill-ghost: #fafafa;
   --colors-fill-ghost-hover: color(display-p3 0.98 0.98 0.98);
   --colors-fill-ghost-down: color(display-p3 0.95 0.95 0.95);
@@ -35,12 +35,12 @@
   --colors-foreground-match-background: #fafafa;
   --colors-foreground-primary: #cb006c;
   --colors-foreground-white: #ffffff;
-  --colors-foreground-disabled: #8D8D8D;
+  --colors-foreground-disabled: #8d8d8d;
   --colors-foreground-danger: #e31902;
   --colors-foreground-emphasized: #f272b6;
-  --colors-accent-cyan: #00D0FF;
-  --colors-accent-green: #56F39A;
-  --colors-accent-lime: #D3FF33;
+  --colors-accent-cyan: #00d0ff;
+  --colors-accent-green: #56f39a;
+  --colors-accent-lime: #d3ff33;
   --colors-accent-random: #aaaaac;
   --box-shadow-pop: 0 8px 24px 0 #00000030;
   --box-shadow-idle: 0 2px 4px 0 #00000014;
