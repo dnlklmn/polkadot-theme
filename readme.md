@@ -61,6 +61,8 @@ Foreground: for texts and icons
 
 ## Generating Output and Publishing Package
 
+[Walkthrough ->](https://www.loom.com/share/b4418b5d2ad141c8807ccb1a8e1f4dcb?sid=bdea2444-287e-40eb-b7f9-fbd64edf612a)
+
 0. push changes from Figma `file path: src/tokens/`
 1. `npm run generate-output`
 2. bump version in `package.json`
