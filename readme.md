@@ -1,4 +1,4 @@
-![Tokens in Figma](image-1.png)
+![Tokens in Figma](./src/assets/image-1.png)
 
 # Polkadot Design Tokens
 
