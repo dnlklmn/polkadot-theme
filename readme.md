@@ -1,3 +1,5 @@
+![Alt text](image.png)
+
 # Polkadot Design Tokens
 
 Design tokens used by the Parity Product Design team are synced to `/src/tokens/`
@@ -59,7 +61,7 @@ Foreground: for texts and icons
 
 ## Generating Output and Publishing Package
 
-0. push changes from Figma
+0. push changes from Figma `file path: src/tokens/`
 1. `npm run generate-output`
 2. bump version in `package.json`
 3. `npm i`
