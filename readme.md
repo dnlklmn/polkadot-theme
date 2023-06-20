@@ -2,7 +2,7 @@
 
 Design tokens used by the Parity Product Design team are synced to `/src/tokens/`
 
-Output is then generated (Style Dictionary) and pubished as a package.
+Output is then generated (Style Dictionary) and published as a package. Note that this is a manual process, to be automated later.
 
 Current outputs: CSS variables (global, light, dark) + Tailwind config
 
