@@ -46,8 +46,11 @@ Semantic always reference global colors.
 ### Semantic Colors
 
 Background: for everything that is full screen and serves as a background for an interface
+
 Fill: for UI elements that sit on top of the backgrounds
+
 Border: for borders of UI elements
+
 Foreground: for texts and icons
 
 ### Typography [WIP]
@@ -57,7 +60,7 @@ Foreground: for texts and icons
 ## Generating Output and Publishing Package
 
 0. push changes from Figma
-
+   <br/>
 1. `npm run generate-output`
 2. bump version in `package.json`
 3. `npm i`
