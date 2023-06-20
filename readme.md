@@ -1,6 +1,7 @@
 # Polkadot Design Tokens
 
 Design tokens used by the Parity Product Design team are synced to `/src/tokens/`
+
 Output is then generated (Style Dictionary) and pubished as a package.
 
 Current outputs: CSS variables (global, light, dark) + Tailwind config
