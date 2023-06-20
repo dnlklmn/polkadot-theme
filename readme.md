@@ -38,6 +38,8 @@ Button.tsx - variant="ghost"
 ...
 ```
 
+[Switch themes ->](https://github.com/dnlklmn/polkadot-theme#themeswitchtsx)
+
 ## Token API
 
 ### Global Colors
