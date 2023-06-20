@@ -1,26 +1,38 @@
 {
   "name": "polkadot-theme",
-  "version": "1.1.5",
-  "description": "",
-  "main": "index.js",
+  "version": "1.1.6",
+  "type": "module",
   "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
     "generate-output": "node sd.config.cjs",
     "copy-config": "cp -r ./node_modules/polkadot-theme/tailwind.config.cjs ./"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@tokens-studio/sd-transforms": "^0.8.5",
+    "sd-tw-transformer": "^1.2.1",
+    "style-dictionary": "^3.8.0"
   },
   "files": [
     "light.css",
     "dark.css",
     "global.css",
-    "tailwind.config.cjs",
-    "sd.config.cjs"
+    "tailwind.config.cjs"
   ],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@tokens-studio/sd-transforms": "^0.8.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sd-tw-transformer": "^1.2.1",
-    "style-dictionary": "^3.8.0"
+  "devDependencies": {
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
   }
 }
