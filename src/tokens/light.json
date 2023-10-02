@@ -243,7 +243,7 @@
         "type": "color"
       },
       "primary": {
-        "value": "{colors.p-pink.600}",
+        "value": "{colors.p-pink.500}",
         "type": "color"
       },
       "white": {
