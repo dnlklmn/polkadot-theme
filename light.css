@@ -4,7 +4,7 @@
   --colors-background-dip: #e1e1e1;
   --colors-background-float: #ffffff;
   --colors-fill-primary: #e6007a;
-  --colors-fill-primary-hover: #F10080;
+  --colors-fill-primary-hover: #FC0186;
   --colors-fill-primary-down: #DC0075;
   --colors-fill-secondary: #FFF8FC;
   --colors-fill-secondary-hover: #FFF8FC;
@@ -33,7 +33,7 @@
   --colors-foreground-contrast: #2b2b2b;
   --colors-foreground-dimmed: #767676;
   --colors-foreground-match-background: #fafafa;
-  --colors-foreground-primary: #cb006c;
+  --colors-foreground-primary: #e6007a;
   --colors-foreground-white: #ffffff;
   --colors-foreground-disabled: #8D8D8D;
   --colors-foreground-danger: #e31902;
