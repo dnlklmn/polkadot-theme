@@ -16,15 +16,15 @@
     },
     "fontWeight": {
       "bold": {
-        "value": "Bold",
+        "value": "700",
         "type": "fontWeights"
       },
       "regular": {
-        "value": "Regular",
+        "value": "400",
         "type": "fontWeights"
       },
       "semibold": {
-        "value": "Semi Bold",
+        "value": "600",
         "type": "fontWeights"
       }
     },

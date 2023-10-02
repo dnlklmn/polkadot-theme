@@ -170,6 +170,36 @@ module.exports = {
         bold: "var(--font-weight-bold)",
         regular: "var(--font-weight-regular)",
         semibold: "var(--font-weight-semibold)"
+      },
+      desktop: {
+    "h1": "var(--desktop-h1)",
+    "h2": "var(--desktop-h2)",
+    "h3": "var(--desktop-h3)",
+    "h4": "var(--desktop-h4)",
+    "h5": "var(--desktop-h5)",
+    "h6": "var(--desktop-h6)",
+        body: "var(--desktop-body)",
+        bodyMedium: "var(--desktop-body-medium)",
+    "body_2": "var(--desktop-body-2)",
+    "body_2Medium": "var(--desktop-body-2-medium)",
+        subtitle: "var(--desktop-subtitle)",
+    "subtitle_2": "var(--desktop-subtitle-2)",
+        caption: "var(--desktop-caption)"
+      },
+      pill: "var(--pill)",
+      lineHeight: {
+        xl: "var(--line-height-xl)",
+        lg: "var(--line-height-lg)",
+        base: "var(--line-height-base)",
+        sm: "var(--line-height-sm)",
+        xs: "var(--line-height-xs)"
+      },
+      fontSize: {
+        xl: "var(--font-size-xl)",
+        lg: "var(--font-size-lg)",
+        base: "var(--font-size-base)",
+        sm: "var(--font-size-sm)",
+        xs: "var(--font-size-xs)"
       }
     },
   },

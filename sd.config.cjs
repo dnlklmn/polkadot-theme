@@ -11,6 +11,7 @@ const sdConfig = makeSdTailwindConfig({
     `src/tokens/dark.json`,
     `src/tokens/light.json`,
     `src/tokens/global.json`,
+    `src/tokens/typography.json`,
   ],
   transforms: ["name/cti/kebab", "attribute/cti"],
   buildPath: `./`,
@@ -24,8 +25,8 @@ const sdConfig = makeSdTailwindConfig({
 // add plugin: 'prettier-plugin-tailwindcss',
 
 // set formats and transforms for style dictionary
-const StyleDictionaryWithTailwind = StyleDictionaryModule.extend(sdConfig);
-StyleDictionaryWithTailwind.buildAllPlatforms();
+// const StyleDictionaryWithTailwind = StyleDictionaryModule.extend(sdConfig);
+// StyleDictionaryWithTailwind.buildAllPlatforms();
 
 registerTransforms(StyleDictionary);
 
@@ -39,13 +40,12 @@ StyleDictionary.registerFormat({
 });
 
 // generate css for each token set
-["light", "dark", "global"].map((theme) => {
+["light", "dark", "global", "typography"].map((theme) => {
   const themeVariables = StyleDictionary.extend({
     source: [`src/tokens/${theme}.json`],
     include: [`src/tokens/global.json`],
     platforms: {
       web: {
-        transformGroup: "tokens-studio",
         transforms: [
           "ts/descriptionToComment",
           "ts/size/px",
@@ -57,7 +57,7 @@ StyleDictionary.registerFormat({
           "ts/border/css/shorthand",
           "ts/shadow/css/shorthand",
           "ts/color/css/hexrgba",
-          "ts/color/modifiers",
+          // "ts/color/modifiers",
           "name/cti/kebab",
         ],
         buildPath: "./",
@@ -84,7 +84,6 @@ const globalVariables = StyleDictionary.extend({
   include: [`src/tokens/global.json`],
   platforms: {
     web: {
-      transformGroup: "tokens-studio",
       transforms: [
         "ts/descriptionToComment",
         "ts/size/px",
@@ -96,7 +95,7 @@ const globalVariables = StyleDictionary.extend({
         "ts/border/css/shorthand",
         "ts/shadow/css/shorthand",
         "ts/color/css/hexrgba",
-        "ts/color/modifiers",
+        // "ts/color/modifiers",
         "name/cti/kebab",
       ],
       buildPath: "./",

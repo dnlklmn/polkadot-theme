@@ -1,0 +1,26 @@
+:root {
+  --desktop-h1: 700 1.5 rem/2rem Unbounded;
+  --desktop-h2: 700 1.25 rem/2 rem Unbounded;
+  --desktop-h3: 600 1.5 rem/2rem Inter;
+  --desktop-h4: 600 1.5 rem/2rem Inter;
+  --desktop-h5: 600 1.25 rem/2 rem Inter;
+  --desktop-h6: 600 1 rem/2rem Inter;
+  --desktop-body: 400 1 rem/1.5 rem Inter;
+  --desktop-body-medium: 600 1 rem/1.5 rem Inter;
+  --desktop-body-2: 400 0.875 rem/1.25 rem Inter;
+  --desktop-body-2-medium: 600 0.875 rem/1.25 rem Inter;
+  --desktop-subtitle: 600 1.5 rem/2rem Inter;
+  --desktop-subtitle-2: 600 1 rem/1.5 rem Inter;
+  --desktop-caption: 400 0.75 rem/1 rem Inter;
+  --pill: 9999px;
+  --line-height-xl: 2rem;
+  --line-height-lg: 2 rem;
+  --line-height-base: 1.5 rem;
+  --line-height-sm: 1.25 rem;
+  --line-height-xs: 1 rem;
+  --font-size-xl: 1.5 rem;
+  --font-size-lg: 1.25 rem;
+  --font-size-base: 1 rem;
+  --font-size-sm: 0.875 rem;
+  --font-size-xs: 0.75 rem;
+}
